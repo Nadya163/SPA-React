@@ -1,0 +1,27 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  /* Typography */
+  --family: 'Nunito Sans', sans-serif;
+
+  /* Other */
+  --radii: 0.5rem;
+}
+
+button,
+._btn {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
