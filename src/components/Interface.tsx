@@ -1,4 +1,5 @@
-interface Cat {
+// eslint-disable-next-line
+export interface Cat {
     id: number;
     breed: string;
     lifespan: string;
@@ -8,5 +9,3 @@ interface Cat {
     wikipedia_url: string;
     imageUrl: string;
 }
-
-export default Cat;

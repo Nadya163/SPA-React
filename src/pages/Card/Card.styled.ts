@@ -20,3 +20,21 @@ export const BackButton = styled.button`
         background-color: #5ebfc9;
     }
 `;
+
+export const CardItem = styled.div`
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+`;
+
+export const CatImg = styled.img`
+    width: 700px;
+`;
+
+export const BreedText = styled.h2`
+    font-size: 40px;
+`;
+
+export const CatText = styled.p`
+    font-size: 25px;
+`;

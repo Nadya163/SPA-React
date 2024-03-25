@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import * as S from "./Main.styled";
@@ -10,7 +11,7 @@ import {
 import { getCatBreeds, getCatImage } from "../../Api";
 import Header from "../../components/Header/Header";
 import CatCard from "../../components/Cards/Cards";
-import Cat from "./../../components/Interface";
+import { Cat } from "./../../components/Interface";
 
 const Main: React.FC = () => {
     const dispatch = useDispatch();

@@ -17,7 +17,7 @@ export const CatImg = styled.img`
 `;
 
 export const LikeImg = styled.img`
-    width: 50px;
+    width: 40px;
     cursor: pointer;
 `;
 
@@ -25,4 +25,5 @@ export const NameBreed = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 300px;
 `;

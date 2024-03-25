@@ -6,6 +6,7 @@ function AppRoute() {
     return (
         <Routes>
             <Route path="/" element={<Main />} />
+            {/* @ts-ignore */}
             <Route path="/card/:id" element={<Card />} />
         </Routes>
     );
